@@ -6,7 +6,7 @@ public class PrioListe {
 	
 	public void addPatient(Patient p) {
 		if(myList.isEmpty()) myList.add(p);
-		else if(p.prio > 0) {
+		else {
 			int index = myList.size();
 			for(Patient a : myList) {
 				if((p.prio < a.prio) && myList.indexOf(a) < index) {

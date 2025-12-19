@@ -12,8 +12,6 @@ public class H2_Main {
 		Passenger d = new Passenger("Kevin",2,false);
 		Passenger e = new Passenger("Kalle",7,false);
 		Passenger f = new Passenger("Ben",6,true);
-		Passenger[] neu = {d,e,f};
-		Passenger[] neu2 = {b};
 		String[] names = {"Anna","Clara"};
 		
 		bus.enterBus(a);
